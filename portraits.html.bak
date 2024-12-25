@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	 <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style_portraits.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="itc-slider.css">
+<!-- JavaScript -->
+<script src="itc-slider.js" defer></script>
+<script src="popper.min.js" defer></script>
+	<style> 
+	  *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+	body {
+	background-color:#080808;
+	
+	}
+		</style>
+  </head>
+  <body>
+  
+ <div class= "conteiner-fon">
+ 
+  <div class="container-xxl" style="margin-top:40px">
+  <div class="row">
+    <div class="col-sm">
+		<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+    ПОРТФОЛИО
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="portraits.html">/ ПОРТРЕТ</a></li>
+    <li><a class="dropdown-item" href="#">/ СТРИТ</a></li>
+    <li><a class="dropdown-item" href="#">/ РЕПОРТАЖ</a></li>
+	<li><a class="dropdown-item" href="#">/ КРЕАТИВ</a></li>
+  </ul>
+</div>
+      <!--div class="portfolio"><a href="#">ПОРТФОЛИО</a></div-->
+    </div>
+    <div class="col-sm">
+      <div class="price"  style="margin-top:7px"><a href="price.html">ПРАЙС</a></div>
+    </div>
+    <div class="col-sm" >
+      <div class="logo"><a style="font-family: 'MuseoModerno', sans-serif; font-size:24px; color:#FF00C7;" href="index_1.html">PHOTOGRAPHER</a></div>
+    </div>
+	    <div class="col-sm">
+		<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+   ИНФО
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">КОНТАКТЫ</a></li>
+    <li><a class="dropdown-item" href="#">ОТЗЫВЫ</a></li>
+  </ul>
+</div>
+      <!--div class="info"><a href="#">ИНФО</a></div-->
+    </div>
+	 <div class="col-sm">
+	   <div class="korzina" style="margin-top:7px"><a href="#">КОРЗИНА</a></div>
+     
+    </div>
+  </div>
+</div>
+
+   
+<div class="conteiner-h1">
+		<h1>ПОРТРЕТ</h1>
+	</div>	 
+<div class="container-xxl">	
+<div class="text">
+<p>Портрет - это способ выразить через фотографию Вашу индивидуальность, Ваши интересы и увлечения.<br>
+Также это возможность показать Вас в новом и непривычном образе, возможность перевоплотиться<br> в кого 
+бы то ни было или наоборот показать свое “Я”. <br>
+Съемки в этом жанре могут проходить как в студии, так и на улице.<br>
+Фотограф поможет в подборе образов и локаций и с радостью воплотит все ваши мечты.</p>
+</div>
+</div>
+<div class="container-slider">
+  <div class="itc-slider" data-slider="itc-slider" data-loop="true">
+  <div class="itc-slider-wrapper">
+    <div class="itc-slider-items">
+      <div class="itc-slider-item">
+        <img src="portraits/vika1.jpg" alt="///">
+      </div>
+      <div class="itc-slider-item">
+        <img src="portraits/vika2.jpg" alt="///">
+      </div>
+      <div class="itc-slider-item">
+       <img src="portraits/vika3.jpg" alt="///">
+      </div>
+	  <div class="itc-slider-item">
+       <img src="portraits/vika4.jpg" alt="///">
+      </div>
+	  <div class="itc-slider-item">
+       <img src="portraits/vika5.jpg" alt="///">
+      </div>
+	  <div class="itc-slider-item">
+       <img src="portraits/vika6.jpg" alt="///">
+      </div>
+    </div>
+  </div>
+   
+  <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+  <button class="itc-slider-btn itc-slider-btn-next"></button>
+</div>
+    </div>
+	
+	<div class="container-slider">
+  <div class="itc-slider" data-slider="itc-slider" data-loop="true">
+  <div class="itc-slider-wrapper">
+    <div class="itc-slider-items">
+      <div class="itc-slider-item">
+        <img src="portraits/Gosha1.jpg" alt="///">
+      </div>
+      <div class="itc-slider-item">
+        <img src="portraits/Gosha2.jpg" alt="///">
+      </div>
+      <div class="itc-slider-item">
+       <img src="portraits/Gosha3.jpg" alt="///">
+      </div>
+	  <div class="itc-slider-item">
+       <img src="portraits/Gosha4.jpg" alt="///">
+      </div>
+	  <div class="itc-slider-item">
+       <img src="portraits/Gosha5.jpg" alt="///">
+      </div>
+    </div>
+  </div>
+   
+  <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+  <button class="itc-slider-btn itc-slider-btn-next"></button>
+</div>
+    </div>
+	
+</div>
+    <!-- Необязательный JavaScript; выберите один из двух! -->
+
+    <!-- Вариант 1: пакет Bootstrap с Popper -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Вариант 2: отдельные JS для Popper и Bootstrap -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</div>
+  </body>
+</html>

@@ -1,0 +1,266 @@
+/*Обнуление*/*{padding:0;margin:0;border:0;}
+/,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}nav,footer,header,aside{display:block;}
+/*--------------------*/
+
+
+
+a {
+	color: #fff;
+	font-size: 15 px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+a:hover{
+    color: #FF00C7; 
+	 transition: 1s;
+}
+
+a:active{
+    color: #FF00C7; 
+	text-decoration: underline;
+	
+}
+
+.conteiner-fon{
+	display:flex;
+	flex-direction:column;
+	/*height:2160px;*/
+	width:100%;
+	background:url(fons/port.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	justify-content:space-between;
+}
+
+.conteiner-xxl{
+	/*text-align:center;*/
+	margin-top:10px;
+}
+
+
+.col-sm{
+	text-align:center;
+}	
+
+/*.dropdown{
+position:relative;	
+}*/
+
+/*плашка под кнопкой списка активная*/
+.dropdown-toggle:focus{
+    background-color: #0000 !important;
+	color:#FF00C7 !important;
+	box-shadow: none !important;
+}
+
+/*плашка под кнопкой списка в обычном состоянии (отключение базовых стилей)*/
+.btn {
+background:transparent;	
+border:none;
+}	
+
+/*плашка под кнопкой списка при наведении(отключение базовых стилей)*/
+.btn:hover{
+	background:transparent;	/*наследуется*/
+	color: #FF00C7;
+}
+
+/*плашка под кнопкой списка при нажатии(отключение базовых стилей)*/
+.btn:active{
+	background:transparent;	
+	color: #FF00C7;
+	border:none;
+	text-decoration: true;
+}
+
+/*цвет плашки под списком*/
+.dropdown-menu {
+	background:#2B2B2B !important;	
+}
+
+/*цвет текста в выпадающем списке*/
+.dropdown-item {
+color:#fff;	
+}
+
+.dropdown-item:hover {
+color:#FF00C7;	
+background: transparent !important;	
+opacity:1;
+} 
+
+
+
+.logo{
+	letter-spacing: 10px;
+}
+
+.conteiner-h1{
+	color:#DE00AD;
+	font-family: 'Lora', serif;
+	text-align: center;
+	margin-top:630px;
+	margin-bottom:50px;
+}	
+
+h1{
+	font-size: 55px;
+}
+p {
+color: #FFF;
+text-align: center;
+font-family: 'Montserrat Alternates', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+font-weight: lighter;
+line-height: 30px;
+}
+
+.text{
+margin-bottom:60px;	
+}
+
+img{
+	max-height:600px;
+    /*object-fit: cover;
+    vertical-align: middle;
+    border-style: none;*/
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/*.container-img{
+	width:400px;
+}	*/
+
+.container-slider{
+	/*display:flex;
+	/*justify-content: center;*/
+	/*max-width: `1200px;*/
+	max-width: 1320px;
+	/*height:250px;*/
+	margin: 10px auto 20px auto;
+    /*flex-direction:row;*/
+}
+/*.dropdown-toggle:focus{
+	
+	  background-color: #FFF !important;
+	  box-shadow: none !important;
+}*/
+
+
+.itc-slider-items {
+      /*flex: 0 0 33.3333333333%;*/
+      max-width: 33%;
+      height: 590px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgba(255,255,255, 0.8);
+      /*font-size: 7rem;*/
+    }
+
+    .itc-slider-item:nth-child(1) {
+      background-color: #080808;
+    }
+
+    .itc-slider-item:nth-child(2) {
+      background-color: #080808;
+    }
+
+    .itc-slider-item:nth-child(3) {
+      background-color: #080808;
+    }
+
+    .itc-slider-item:nth-child(4) {
+      background-color: #080808;
+    }
+
+    .itc-slider-item:nth-child(5) {
+      background-color: #080808;
+    }
+	.itc-slider-item:nth-child(6) {
+      background-color: #080808;
+    }
+	
+	
+.footer {
+	
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+		padding: 0px; 
+		background:rgba(30, 30, 30, 0.29);
+		width: 100%; 
+		height:193px;
+		color: #FFF;
+		font-family: Montserrat, sans-serif;
+		font-size: 15px;
+		font-style: normal;
+		/*font-weight: 300;
+		line-height: normal;*/
+		align-items:center;
+}
+	
+
+.footer{
+margin-top:70px;
+}	
+.conteiner-footer{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	align-content:center;
+	min-width: 80%;
+	height:30%;
+	
+}	
+	
+.avtor {
+display: flex;
+padding: 4px;
+gap: 10px;
+/*margin-right:300px;
+margin-left:170px;*/
+}	
+
+.seti{
+	display: inline-flex;	
+	justify-content:center;
+}
+.inst{
+	display: flex;
+width:29px;
+height:29px;
+/*padding-left:10px;
+padding-right:10 px;*/
+margin:10px;
+/*margin-left:290px;*/
+color: #FFF;
+}
+
+.tg{
+	display: flex;
+width:33px;
+height:33px;
+/*padding-left:10px;
+padding-right:10px;
+/*margin-right:290px;*/
+margin:10px;
+color: #FFF;
+}
+
+.mail{
+display: flex;
+padding: 4px;
+gap: 10px;
+/*margin-left:250px;
+margin-right:170px;*/
+}
+
